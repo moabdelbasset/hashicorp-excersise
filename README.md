@@ -18,6 +18,7 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 
 sudo apt update
 sudo apt install vault -y
+```
 
 2. Start Vault in dev mode and export the Vault address and Vault token
 vault --version
