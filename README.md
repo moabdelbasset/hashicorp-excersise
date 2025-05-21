@@ -35,7 +35,7 @@ vault write aws/config/root \
 ```
 4. Transferring command to API [AWS Secret Engine API](https://developer.hashicorp.com/vault/api-docs/secret/aws)
 ```bash
-ubuntu@ip-172-31-93-62:~$ curl --header "X-Vault-Token: hvs.VVsWlJ3j1UEvXj0XfIbQ4wWZ" \
+ubuntu@ip-172-31-93-62:~$ curl --header "X-Vault-Token: abc123abc123" \
      --request POST \
      --data '{
        "credential_type": "iam_user",
